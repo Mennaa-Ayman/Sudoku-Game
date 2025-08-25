@@ -6,4 +6,8 @@ The Sudoku Game project is a console-based implementation of the popular Sudoku 
 
 ### The game supports: 
 • Console interaction: Users can load puzzles from files, place values on the board, check puzzle validity, solve automatically, and save current puzzles.  
-• puzzle generation: Automatically create Sudoku boards of varying difficulty. 
+• puzzle generation: Automatically create Sudoku boards of varying difficulty.  
+• puzzle save: Loads and saves puzzle data to a file.  
+• Error handling.
+
+
