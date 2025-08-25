@@ -1,0 +1,3 @@
+C:/Users/menna/Desktop/EdgesSwDiploma/PROJECTS/SudokuGame/build/CMakeFiles/SudokuProject.dir
+C:/Users/menna/Desktop/EdgesSwDiploma/PROJECTS/SudokuGame/build/CMakeFiles/edit_cache.dir
+C:/Users/menna/Desktop/EdgesSwDiploma/PROJECTS/SudokuGame/build/CMakeFiles/rebuild_cache.dir
