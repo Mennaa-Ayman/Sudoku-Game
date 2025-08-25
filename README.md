@@ -32,7 +32,7 @@ SudokuGame/
 │── Games/ # Example Sudoku boards  
 
 ## How to run 
-cd build  
-./SudokuProject.exe   
+` cd build  
+./SudokuProject.exe `  
 
 
