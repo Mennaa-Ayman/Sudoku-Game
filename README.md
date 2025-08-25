@@ -1,6 +1,7 @@
 # Sudoku-Game
 
 The Sudoku Game project is a console-based implementation of the popular Sudoku puzzle, developed in C++. It demonstrates a modular, object-oriented design and leverages the C++ Standard Template Library (STL).
+#
 <img width="1200" height="596" alt="image" src="https://github.com/user-attachments/assets/e5a7ddda-3d3d-44c4-893d-d7eac589d799" />
 
 ### The game supports: 
