@@ -51,7 +51,7 @@ SudokuGame/
 
 
 ## Build & Run
-The Makefile expects a Qt 6 installation. Point `QT_ROOT` at the Qt kit you want to use (the path that contains `bin`, `lib`, and `include`). Example for the MinGW kit on Windows:
+The Makefile expects a Qt 6 installation. Point `QT_ROOT` at the Qt kit you want to use (the path that contains `bin`, `lib`, and `include`).
 
 ```bash
 make QT_ROOT="..Qt/6.10.1/mingw_64" build
