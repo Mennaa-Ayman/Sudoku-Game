@@ -27,7 +27,7 @@ Restore puzzles from `Games/` samples (or your own files) and export progress at
 ## Screenshots
 | Main Window | Puzzle solved automatically |
 |------------|---------------------|
-| ![](Assets/MainWindow.png) | ![](Assets/SolvedPuzzleAutomatically.png) |
+| ![](Images/MainWindow.png) | ![](Images/SolvedPuzzleAutomatically.png) |
 
 ## Project Structure
 ```
