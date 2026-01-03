@@ -1,4 +1,4 @@
-# Sudoku-Game 🎲
+# Sudoku-Game 
 
 <div align="center">
   
@@ -9,14 +9,19 @@
   
 </div>
 
-**C++ Sudoku Game** with a **Qt desktop interface** built on top of a reusable puzzle engine. The application allows users to generate new Sudoku boards, load saved games, make moves with **real-time validation**, and delegate difficult puzzles to an integrated solver.
+**C++ Sudoku Game** with a **Qt desktop interface**. The application allows users to generate new Sudoku boards, load saved games and make moves with **real-time validation**. The core Sudoku logic is independent of the GUI framework.
 
-## Highlights
-- **Qt GUI** – Difficulty picker, action buttons, bold 3×3 block borders, and status feedback in a clean white layout.
-- **Puzzle generation** – Create Easy, Medium, or Hard puzzles on demand using the bundled generator.
-- **Live validation** – Prevents illegal moves, enforces number ranges, and resets protected clues automatically.
-- **Solver integration** – One click delegates the current board to the backtracking solver.
-- **Load & save** – Restore puzzles from `Games/` samples (or your own files) and export progress at any time.
+## Features
+- **Qt GUI**  
+Difficulty picker, action buttons, bold 3×3 block borders, and status feedback.
+- **Puzzle generation**  
+Create Easy, Medium, or Hard puzzles on demand using the bundled generator.
+- **Live validation**  
+Prevents illegal moves, enforces number ranges, and resets protected clues automatically.
+- **Solver integration**  
+Delegates the current board to the backtracking solver.
+- **Load & save**  
+Restore puzzles from `Games/` samples (or your own files) and export progress at any time.
 
 
 ## Screenshots
@@ -30,12 +35,14 @@ SudokuGame/
 ├── README.md
 ├── IO_Samples.md              # Example console I/O transcripts
 ├── Makefile                   # Qt build script
+│
 ├── Include/
 │   ├── SudokuBoard.hpp
 │   ├── SudokuException.hpp
 │   ├── SudokuGame.hpp
 │   ├── SudokuGenerator.hpp
 │   └── SudokuSolver.hpp
+│
 ├── Src/
 │   ├── main.cpp
 │   ├── SudokuBoard.cpp
@@ -44,6 +51,7 @@ SudokuGame/
 │   ├── SudokuGenerator.cpp
 │   ├── SudokuSolver.cpp
 │   └── UserInterface.cpp      # Qt main window implementation
+│
 ├── Games/                     # Sample Sudoku boards (text files)
 └── Images/                    # Pictures of the UI                             
 ```
